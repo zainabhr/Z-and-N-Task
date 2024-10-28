@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: #074143;
+    height: 50px;
+    position: fixed;
+    z-index: 2;
+}
+
+body{
+    font-family: "Inter" , sans-serif;
+
+}
+
+.welcome{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.short-desc{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.divide {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 30px ;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left {
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(219, 219, 219);
+}
+
+.right {
+    right: 0;
+}
+
+#logo{
+    width: 125px;
+    height: 115px;
+}
+
+#right-image{
+    width: 100%;
+    height: 99%;
+}
+
+.form-class{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 10px 0 10px;
+}
+
+label{
+    font-size: 14px;
+}
+
+.icon{
+    height: 30px;
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    border-left: none;
+    padding: 5px;
+}
+
+input:focus .warning{
+    display: none;
+}
+
+.warning{
+    display: none;
+    color: red;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.warning i{
+    color: red;
+}
+
+.forget-password, .dont-have-account{
+    font-size: 12px;
+    margin: 5px;
+}
+
+button{
+    width: 150px;
+    height: 35px;
+    background-color: #1bf783;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    transition: 0.2s ease;
+}
+
+button:hover{
+    background-color: white;
+    color: #1bf783;
+}
+
