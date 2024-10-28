@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: #074143;
+    height: 40px;
+    position: fixed;
+    z-index: 2;
+}
+
+body{
+    font-family: "Inter" , sans-serif;
+}
+
+.header{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 250px;
+}
+
+.short-desc{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.divide {
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+}
+
+.right {
+    height: 100%;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(219, 219, 219);
+    overflow:  scroll;
+
+}
+
+.left {
+    left: 0;
+}
+
+
+
+#right-img{
+    background: url("/images/Rectangle 11(6).png") no-repeat;
+    background-size: contain; 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logo{
+    width: 135px;
+    height: 125px;
+    margin: 5px;
+}
+
+.circle p{
+    width: 90%;
+    font-weight: 300;
+    text-align: center;
+    font-size: large;
+}
+
+.profile-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-pic div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background:url("images/clarity_user-line.png");
+    background-size: contain;
+}
+
+.profile-pic input{
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.form-class{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 10px 0 10px;
+}
+
+label{
+    font-size: 14px;    
+}
+
+input{
+    width: 250px;
+    height: 30px;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+}
+
+.country-city{
+    display: flex;
+    flex-direction: row;
+
+}
+
+#country, #city{
+    width: 125px;
+    display: block;
+    margin: 5px;
+}
+
+.warning{
+    display: none;
+    color: red;
+    border: 1px solid red;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.warning i{
+    color: red;
+}
+
+#create-acc{
+    width: 150px;
+    min-height: 50px;
+    background-color: #1bf783;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    transition: 0.2s ease;
+}
+
+#create-acc:hover{
+    background-color: white;
+    color: #1bf783;
+}
+
+.have-account{
+    font-size: 12px;
+    margin: 5px;
+}

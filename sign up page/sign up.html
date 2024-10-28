@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="sign up styles.css">
+    <link 
+        rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" 
+        referrerpolicy="no-referrer" 
+        />
+    <script src="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://common.olemiss.edu/_js/sweet-alert/sweet-alert.css">
+</head>
+<body>
+    <header></header>
+    <div class="divide left" id="right-img">
+        <div class="circle">
+            <img src="/images/logo.png" id="logo">
+            <p>THE CONSTRUCTION AND LANDSCAOING COMPANY</p>
+        </div>
+    </div>
+    <div class="divide right">
+        <p class="header">SIGN UP</p>
+        <p class="short-desc">PROFILE PICTURE</p>
+        <div class="profile-pic">
+            <div id="profile-photo"></div>
+            <input type="file"  alt="Submit" width="20px">
+        </div>
+        <form class="form-class">
+            <label for="email">EMAIL ADDRESS</label>
+            <div>
+            <i class="fa-regular fa-envelope icon"></i>
+                <input type="email" id="email">
+            </div>
+            
+            <label for="phone">PHONE NUMBER</label>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <input type="tel" id="phone">
+            </div>
+            <label for="username">USERNAME</label>
+            <div>
+                <i class="fa-regular fa-user"></i>
+                <input type="text" id="username">
+            </div>
+            <label for="password">PASSWORD</label>
+            <div>
+                <i class="fa-solid fa-key icon"></i>
+                <input type="password" id="password" value="">
+            </div>
+            <label for="re-enter-password">RE-ENTER PASSWORD</label>
+            <div>
+                <i class="fa-solid fa-key icon"></i>
+                <input type="password" id="re-enter-password" value="">
+            </div>
+            <div class="country-city">
+                <div>  
+                    <label for="country" >COUNTRY</label>
+                    <input type="text" id="country">
+                </div>
+                <div>
+                    <label for="city">CITY</label>
+                    <input type="text" id="city">
+                </div>  
+            </div>    
+        </form>
+        <div class="warning">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            INVALID FIELDS. TRY AGAIN
+        </div>
+        <button id="create-acc">CREATE ACCOUNT</button>
+        <p class="have-account">HAVE AN ACCOUNT? <a href="login.html">LOGIN</a></p>
+    </div>
+
+    <script src="sign up scripts.js"></script>
+    
+</body>
+</html>
